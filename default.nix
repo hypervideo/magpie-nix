@@ -10,14 +10,14 @@
 
 buildNpmPackage rec {
   pname = "magpie";
-  version = "unstable-2026-05-27";
-  rev = "cafd72bcd58e3b51d0bc2984f823b327868095b4";
+  version = "unstable-2026-06-05";
+  rev = "fda54bad780224f26b6ec2da14bdf6fdd397b4ff";
 
   src = fetchFromGitHub {
     owner = "liliu-z";
     repo = "magpie";
     inherit rev;
-    hash = "sha256-bXZv9cTADQfRoe2OYBLIeGOevv/9yeb6fLwEn4J59NY=";
+    hash = "sha256-hSNDYoSWk3CgfLaWXH0/5nCQLGdB91KHaY1MeAEgYpw=";
   };
 
   npmDepsHash = "sha256-+lpRNck3gCyr8OUZtKtyEJmtXHm3FmNq9lOdn6EnDNU=";
